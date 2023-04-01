@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(#F0F0F0, lightgreen);
+}
+img{
+    width: 40% !important;;
+}
+span{
+    align-items: center;
+}
+
+/* Navbar Styling********************************************************************************** */
+.navbar-brand{
+    margin-bottom:10%;
+}
+
+.navbar-nav{
+    position: relative;
+    left: 39.5%;
+}
+
+.gallery{
+    color: green !important;
+    
+}
+
+.home{
+    color: black !important;
+    font-weight: normal !important;
+}
+.home:hover{
+    color: none !important;
+}
+
+/* Gallery Styling ********************************************************************************************************/
+.p-one {
+    padding-top:15% ;
+    
+}
+
+.p-two{
+    padding-top:25% ;
+    
+}
+.p-three{
+    padding:3% 15% 3% 15% ;
+}
+
+.row-spacing{
+    margin-bottom: 10%;
+}
+
+/* Media Query  ***************************************************************************/
+
+@media (max-width:1000px) {
+    img{
+        width:80% !important;
+    }
+    p{
+        padding:5% 0 5% 0 !important ;
+        
+    }
+}
+
+

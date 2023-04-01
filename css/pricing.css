@@ -1,0 +1,108 @@
+body{
+    background-image: none;
+    z-index: 2;
+    background-color: #57ab82 !important;
+}
+
+
+
+/* Navbar styling  *************************************************************/
+.title{
+    padding: 5em 0 10em 0;
+}
+
+
+/* Text colors ********************************************************************************/
+.text-color-light{
+    color: #F0F0F0 !important;
+}
+.pricing{
+    color: green
+    
+}
+
+.navbar-brand:hover{
+    color:none !important;
+}
+
+#Header-section{
+    background-color: #F0F0F0 !important;
+}
+.navbar{
+    background-color: #F0F0F0 !important;
+}
+.navbar-nav{
+    position: relative;
+    left: 39.5%;
+}
+
+.home{
+    color: black !important;
+    font-weight: normal !important;
+}
+.home:hover{
+    color: none !important;
+}
+
+
+
+
+
+/* Cards Styling Section ***********************************************************************/
+
+.card-body{
+    
+    background-color: #fff;
+    
+}
+
+.card{
+        background-image:url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjExMDItcGF0dGVybi0wMV8xLWt3bTcxMnhhLmpwZw.jpg);
+        
+}
+.card-one{
+    background-image:url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Y5MDEtMzZfMS5qcGc.jpg)
+}
+.card-two{
+    background-image:url(https://images.rawpixel.com/image_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMDQtcGF0dGVybi1rYXRpZS0wNF8yXzIuanBn.jpg)
+}
+.card-three{
+    background-image:url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yNzcta2F0aWUtMTMuanBn.jpg)    
+}
+
+.card-header-one{
+    background-color: lightpink !important ;
+}
+.card-header-two{
+    background-color: burlywood!important;
+}
+.card-header-three{
+    background-color: gold!important;
+}
+
+/* Button customization **************************************************************************************************/
+button{
+    color: #000 !important;
+}
+
+.button-one{
+    background-color: lightpink !important ;
+}
+
+.button-two{
+    background-color: burlywood!important;
+}
+
+.button-three{
+    background-color: gold!important;
+}
+
+.button-one:hover{
+    background-color: rgb(234, 163, 175)!important ;
+}
+.button-two:hover{
+     background-color: rgb(205, 166, 114)!important;
+}
+.button-three:hover{
+    background-color: goldenrod!important ; ;
+}
