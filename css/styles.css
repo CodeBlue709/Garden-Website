@@ -75,6 +75,9 @@ body{
 
 /*Navbar & Header Section ***********************************************************************************/
 
+.navigation-alignment{
+    margin:auto;
+}
 
 .navbar-brand{
     
