@@ -75,9 +75,6 @@ body{
 
 /*Navbar & Header Section ***********************************************************************************/
 
-.navigation-alignment{
-    margin:auto;
-}
 
 .navbar-brand{
     
@@ -338,8 +335,8 @@ textarea{
         transform: scaleX(0.4);
     }
     .navbar-toggler{
-        margin: center;
-        margin-left: 80px;
+        margin-left:35%;
+        
     }
     .text-colored{
         text-align: center;
@@ -364,6 +361,7 @@ textarea{
         background-image: none;
         text-align: center;
     }
+    
 }
 
 
