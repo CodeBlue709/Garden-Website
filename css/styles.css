@@ -94,7 +94,6 @@ body{
 
 .nav-link {
   position: relative;
-  
   text-decoration: none;
 }
 .nav-link:hover{
@@ -254,7 +253,7 @@ form{
     margin-bottom: 20px;
 }
 .message-icon i{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .message-icon span{
@@ -264,7 +263,7 @@ form{
 }
 
 form input, textarea{
-    width:100%;
+    width:95%;
     border-top:none;
     border-left: none;
     border-right: none;
@@ -272,15 +271,21 @@ form input, textarea{
     outline:none;
     background-color: #F0F0F0;
 }
-
+textarea{
+    margin-left:17px;
+}
 #input-field{
     padding-bottom: 20px;
     display: flex;
     align-items: center;
+    position: relative;
+    right: 2px;
 }
 #input-field i{
     font-size: 22px;
-    margin-right: 15px;
+    width: 20px;
+    
+    
 }
 
 .send-btn{
@@ -292,17 +297,19 @@ form input, textarea{
     padding: 6px 0;
     border-radius: 50px;
     position: relative;
-    left: 43%
+    left: 40%;
+    text-align:center
 }
 
 /* Media query for page sizes *************************************************/
-
-
 /* Media Query for Navbar ***************************************************************************************/
-@media (max-width:1000px) {
+@media (max-width:1300px) {
     
+    .navbar-brand{
+        text-align: center;
+    }
     
-    
+
     #top-section{
         padding: 5%;
         text-align: center;
@@ -323,14 +330,13 @@ form input, textarea{
         top: 50px;
         padding: 0 0 1em 0;
     }
-    .send-btn{
-        
-    }
+
     .nav-link:hover::before {
         transform: scaleX(0.4);
     }
     .navbar-toggler{
-        margin:auto
+        margin: center;
+        margin-left: 80px;
     }
     .text-colored{
         text-align: center;
