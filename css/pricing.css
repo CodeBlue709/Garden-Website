@@ -31,9 +31,14 @@ body{
 .navbar{
     background-color: #F0F0F0 !important;
 }
-.navbar-nav{
-    position: relative;
-    left: 39.5%;
+.navbar-toggler {
+    margin: auto;
+}
+
+
+
+.navigation-alignment{
+    margin: auto;
 }
 
 .home{
