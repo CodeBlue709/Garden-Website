@@ -77,11 +77,9 @@ body{
 
 
 .navbar-brand{
-    
     font-weight: bold;
-    
     font-size: 4em !important;
-    
+    margin: left;
 }
 .navbar-brand:hover, .home:hover{
     color: green !important;
