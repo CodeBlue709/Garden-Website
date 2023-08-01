@@ -35,10 +35,8 @@ body{
 
 
 
-/**PADDING SECITION************************************************************************************************/
-.container-fluid{
-    padding:0 7em;
-}
+
+
 
 
 
@@ -79,8 +77,10 @@ body{
 .navbar-brand{
     font-weight: bold;
     font-size: 4em !important;
-    margin: left;
+    
+    
 }
+
 .navbar-brand:hover, .home:hover{
     color: green !important;
 
@@ -296,14 +296,15 @@ textarea{
     border-radius: 50px;
     position: relative;
     left: 40%;
-    text-align:center
+    text-align:center;
 }
 
 /* Media query for page sizes *************************************************/
 /* Media Query for Navbar ***************************************************************************************/
 @media (max-width:1300px) {
     
-    .navbar-brand{
+    
+    .container-fluid{
         text-align: center;
     }
     
@@ -330,15 +331,10 @@ textarea{
     }
 
     .nav-link:hover::before {
-        transform: scaleX(0.4);
+        transform: scaleX(0.3);
     }
-    .navbar-toggler{
-        margin-left:35%;
-        
-    }
-    .text-colored{
-        text-align: center;
-    }
+    
+    
     .bottom-img{
         width: 1000px;
         padding:none;
